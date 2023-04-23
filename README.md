@@ -28,7 +28,7 @@
 - Activates debug camera once the player enters cutscene.
 - Activates developer menu which grants more freedom.
 - Activates TopMenuDebug in the options menu.
-- Additionally framepacing issues where fixed.
+- Additionally framepacing issues were fixed.
 - Disables motion blur which caused issues.
 - Disables chromatic aberration as intended.
 
