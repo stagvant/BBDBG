@@ -67,6 +67,7 @@ Navigating to the indicated option will allow you to level up on the move.
 
 - [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
 - [Everyone at Goldhen Team](https://github.com/Goldhen)
+
 Without your toolchains I wouldn't be able to distribute my patches!
 
 ## Consider donating
