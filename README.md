@@ -86,11 +86,6 @@ Without your toolchains I wouldn't be able to distribute my patches!
 - [Patreon](https://www.patreon.com/stagvant)
 - [Buy me a Coffee](https://www.buymeacoffee.com/stagvant)
 
-## Disclaimer
-
-The source of BBDBG is currently private due to potential improper use.\
-Although there might be an attempt of reconsidering in the future.
-
 ## License
 
 BBDBG is released under the [GPLv3 License](https://github.com/stagvant/BBDBG/blob/main/LICENSE).
