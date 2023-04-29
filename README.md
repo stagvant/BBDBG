@@ -44,7 +44,7 @@ Then navigate to [MoveMapStep] and press circle.\
 Finally navigate to Pause and switch from Off to On.\
 ![BB3](https://user-images.githubusercontent.com/131619524/235291313-fe7dbe84-cfb7-4ec4-9937-433bae424df7.jpg)\
 Congratulations you enabled the overworld debug camera!\
-Additionally while the debug camera is active all entities will freeze.\
+Additionally while the debug camera is active all entities will freeze.
 
 ## TopMenuDebug option
 
