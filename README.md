@@ -32,24 +32,21 @@
 - Disables motion blur which caused issues.
 - Disables chromatic aberration as intended.
 
-## Cutscene debug camera
+## Overworld debug camera
 
-Besides entering a cutscene normally as per game's procedure\
-there is also a way to force it manually through the developer menu.\
-By pressing the upper left of the touchpad will bring the developer menu.\
-![BB1](https://user-images.githubusercontent.com/131619524/233868088-e9ef1b66-84c8-4bcf-9153-b06325273048.jpg)\
-Navigating to [GAME] option and press circle then go to [REMO] and circle.\
-![BB2](https://user-images.githubusercontent.com/131619524/233868116-4c3c919f-1f29-4144-b363-6e4355c931b1.jpg)\
-Now you will have to change the AreaNo and BlockNo values by pressing triangle.\
-After that you have to navigate to the option where it prompts use to PushOtoPlay.\
-![BB3](https://user-images.githubusercontent.com/131619524/233868135-48369c1f-9c56-4e99-a058-43ac7db7af6a.jpg)\
-If done correctly a new option will appear at the bottom go there and press circle.\
-![BB4](https://user-images.githubusercontent.com/131619524/233868284-088cb335-1159-46f7-8835-f034803aff49.jpg)\
-To loop the cutscene swap cross with circle by pressing right arrow on crosspad.\
-![BB5](https://user-images.githubusercontent.com/131619524/233868201-4b7f9574-5bf9-47b2-a267-4bcfafe05ca4.jpg)\
-![BB6](https://user-images.githubusercontent.com/131619524/233868208-06c66b18-9b24-49bd-abbb-ad894ee74bd0.jpg)\
-Close the developer menu the same way you opened and enjoy a new perspective!\
-Just for your interest in case you want to end the loop press options or do the swap!
+Besides enabling debug camera when entering a cutscene\
+there is also a way to enable it from the developer menu.\
+By pressing the upper left of the touchpad activates it.\
+Navigating to [SYSTEM] option and press circle.\
+![BB1](https://user-images.githubusercontent.com/131619524/235291307-578b508b-05de-453c-a7b5-43a31adc8a43.jpg)\
+Then navigate to [MoveMapStep] and press circle.\
+![BB2](https://user-images.githubusercontent.com/131619524/235291309-c94b0bde-c09e-4172-90c1-5b49cb4a34b9.jpg)\
+Finally navigate to Pause and switch from Off to On.\
+![BB3](https://user-images.githubusercontent.com/131619524/235291313-fe7dbe84-cfb7-4ec4-9937-433bae424df7.jpg)\
+Congratulations you enabled the overworld debug camera!\
+Additionally while the debug camera is active all entities will freeze.\
+Skip is under the pause option which once selected and circle is\
+pressed will unfreeze for a few frames and then freeze again.
 
 ## TopMenuDebug option
 
@@ -74,6 +71,11 @@ Navigating to the indicated option will allow you to level up on the move.
 - [OpenOrbis-PS4-Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain)
 
 ## Credits
+
+- [Special thanks to Potomy](https://twitter.com/_potomy_)
+
+For his significant contribution on backporting a feature from Dark Souls 3 developer menu\
+to Bloodborne, allowing a new kind of interaction with the overworld debug camera!!!
 
 - [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
 - [Everyone at Goldhen Team](https://github.com/Goldhen)
