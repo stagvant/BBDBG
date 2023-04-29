@@ -58,7 +58,7 @@ Navigating to the indicated option will allow you to level up on the move.
 ## Requirements
 
 - [Goldhen 2.3+](https://github.com/Goldhen/Goldhen) running on a Playstation4 system
-- [Fonts and shaders](https://drive.proton.me/urls/99K883B7XG#5L6jlq0yE3yw) for the developer menu
+- [Fonts and shaders](https://drive.proton.me/urls/99K883B7XG#5L6jlq0yE3yw) for displaying developer menu
 - Knowledge on how to make a backup copy of a game
 - Knowledge on how to setup a plugin to run properly
 
@@ -73,12 +73,10 @@ Navigating to the indicated option will allow you to level up on the move.
 - [Special thanks to Potomy](https://twitter.com/_potomy_)
 
 For his significant contribution on backporting a feature from Dark Souls 3 developer menu\
-to Bloodborne, allowing a new kind of interaction with the overworld debug camera!!!
+back to Bloodborne, allowing a new kind of interaction with the overworld debug camera!!!
 
 - [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
 - [Everyone at Goldhen Team](https://github.com/Goldhen)
-
-Without your toolchains I wouldn't be able to distribute my patches!
 
 ## Consider donating
 
