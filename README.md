@@ -27,6 +27,7 @@
 - Modifies Bloodborne a FromSoftware game before boot.
 - Activates debug camera once the player enters cutscene.
 - Activates developer menu which grants more freedom.
+- Redirects lock on target taking control of entity.
 - Activates TopMenuDebug in the options menu.
 - Additionally framepacing issues were fixed.
 - Disables motion blur which caused issues.
@@ -55,6 +56,35 @@ By pressing debug option brings a menu with some random ideograms.\
 ![BB8](https://user-images.githubusercontent.com/131619524/233867920-2a4b1ed6-aeec-4ce6-b321-fc5bd87fcf69.jpg)\
 Navigating to the indicated option will allow you to level up on the move.
 
+## Enemy control manipulation
+
+In order to takeover the control of an entity you have to\
+hold down right joystick as if were trying to lock on it.
+
+By the moment you lock on the target the system will\
+pass over the controls for manipulating the enemy AI\
+Be aware due to the nature of how this mod works you\
+will not be able to lock on target normally anymore.
+
+You can get back to the default entity you were in control\
+by performing the same actions to manipulate other entities.
+
+## Force return to main menu combo
+
+I only incorporated this feature just in case your entity gets\
+terminated and you are unable to take over another vessel.
+
+Basically you get softlocked till you close the game completely\
+unless you press down right joystick while the cross button is\
+also pressed in order to kick you back to the title screen.\
+From there you can load the game again where you left it.
+
+## Known Bugs and Issues
+
+Should be mentioned for your own sanity to make sure of turning off the lock-on and\
+lock on target from the options menu to prevent passing back and forth of controls.\
+Additionally do not wander too far from your default entity or you will get despawned.
+
 ## Requirements
 
 - [Goldhen 2.3+](https://github.com/Goldhen/Goldhen) running on a Playstation4 system
@@ -80,9 +110,8 @@ back to Bloodborne, allowing a new kind of interaction with the overworld debug 
 
 ## Consider donating
 
-- [Ko-fi](https://ko-fi.com/stagvant)
-- [Patreon](https://www.patreon.com/stagvant)
-- [Buy me a Coffee](https://www.buymeacoffee.com/stagvant)
+- [Option1](https://ko-fi.com/stagvant)
+- [Option2](https://buymeacoffee.com/stagvant)
 
 ## License
 
