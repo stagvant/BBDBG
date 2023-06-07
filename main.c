@@ -41,6 +41,8 @@ procrw(0x01FE3DF3,BB100T,13,1);
 procrw(0x01FE3C74,BB100U,35,1);
 procrw(0x01915461,BB100V,63,1);
 procrw(0x01914B54,BB100W,200,1);
+procrw(0x01872C0A,BB100X,176,1);
+procrw(0x0155C92A,BB100Y,342,1);
 }else{
 procrw(0x01C3A77F,verid,1,0);
 if(verid[0]==(unsigned char)9){
@@ -64,6 +66,8 @@ procrw(0x022A457B,BB109R,1,1);
 procrw(0x0207A5B3,BB109S,13,1);
 procrw(0x0207A434,BB109T,35,1);
 procrw(0x0193C10C,BB109U,208,1);
+procrw(0x01894E60,BB109V,176,1);
+procrw(0x0157696A,BB109W,342,1);
 }else{
 procrw(0x01C3AACF,verid,1,0);
 if(verid[0]==(unsigned char)6){
@@ -86,7 +90,9 @@ procrw(0x00F71BDD,BB106Q,1,1);
 procrw(0x022A524B,BB106R,1,1);
 procrw(0x0207B9A3,BB106S,13,1);
 procrw(0x0207B824,BB106T,35,1);
-procrw(0x0193C54C,BB106U,208,1);}}}
+procrw(0x0193C54C,BB106U,208,1);
+procrw(0x01895370,BB106V,176,1);
+procrw(0x01576B8A,BB106W,342,1);}}}
 scePthreadExit(NULL);
 return NULL;}
 int32_t attr_module_hidden module_start(size_t argc,const void *args){
