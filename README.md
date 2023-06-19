@@ -45,7 +45,7 @@ Then navigate to [MoveMapStep] and press circle.\
 Finally navigate to Pause and switch from Off to On.\
 ![BB3](https://user-images.githubusercontent.com/131619524/235291313-fe7dbe84-cfb7-4ec4-9937-433bae424df7.jpg)\
 Congratulations you enabled the overworld debug camera!\
-Additionally while the debug camera is active all entities will freeze.
+While the debug camera is active all entities will freeze.
 
 ## TopMenuDebug option
 
@@ -56,7 +56,7 @@ By pressing debug option brings a menu with some random ideograms.\
 ![BB8](https://user-images.githubusercontent.com/131619524/233867920-2a4b1ed6-aeec-4ce6-b321-fc5bd87fcf69.jpg)\
 Navigating to the indicated option will allow you to level up on the move.
 
-## Enemy control manipulation
+## Entity manipulation
 
 In order to takeover the control of an entity you have to\
 hold down right joystick as if were trying to lock on it.
@@ -66,18 +66,8 @@ pass over the controls for manipulating the enemy AI\
 Be aware due to the nature of how this mod works you\
 will not be able to lock on target normally anymore.
 
-You can get back to the default entity you were in control\
-by performing the same actions to manipulate other entities.
-
-## Force return to main menu combo
-
-I only incorporated this feature just in case your entity gets\
-terminated and you are unable to take over another vessel.
-
-Basically you get softlocked till you close the game completely\
-unless you press down right joystick while the cross button is\
-also pressed in order to kick you back to the title screen.\
-From there you can load the game again where you left it.
+You can get back to the initial entity you\
+controlled by holding down left joystick.
 
 ## Known Bugs and Issues
 
@@ -94,19 +84,22 @@ Additionally do not wander too far from your default entity or you will get desp
 
 ## Toolchains used
 
-- [LLVM 10](https://llvm.org/)
+- [LLVM 10](https://github.com/llvm/llvm-project)
 - [GoldHEN_Plugins_SDK](https://github.com/GoldHEN/GoldHEN_Plugins_SDK)
 - [OpenOrbis-PS4-Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain)
 
-## Credits
+## Toolchain authors
 
-- [Special thanks to Potomy](https://twitter.com/_potomy_)
+- [The LLVM Team](https://github.com/llvm)
+- [The Goldhen Team](https://github.com/Goldhen)
+- [The OpenOrbis Team](https://github.com/OpenOrbis)
+
+## Special thanks
+
+- [Gothic Architecture Designer Potomy](https://twitter.com/_potomy_)
 
 For his significant contribution on backporting a feature from Dark Souls 3 developer menu\
 back to Bloodborne, allowing a new kind of interaction with the overworld debug camera!!!
-
-- [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
-- [Everyone at Goldhen Team](https://github.com/Goldhen)
 
 ## Consider donating
 
